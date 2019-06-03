@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SITP_parkinglot</string>
+    <string name="title_activity_parking_lot">ParkingLot</string>
+    <string name="title_activity_register">RegisterAct</string>
+    <string name="drawer_open"> Drawer is opened </string>
+    <string name="drawer_close">Drawer is closed </string>
+    <string name="Myhtml"><a href="https://github.com/Nevertorlate/Sitp_app">源码地址</a></string>
+    <string name="Us">关于我们</string>
+</resources>

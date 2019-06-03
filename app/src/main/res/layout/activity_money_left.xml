@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_money_left"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.admin.sitp_parkinglot.MoneyLeft">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView29"
+        android:layout_toRightOf="@+id/textView29"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:id="@+id/textView32"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="viewEnd"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="收费标准说明："
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView29"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView33" />
+
+    <TextView
+        android:text="1.车位按小时收费，不足一小时按一小时收费"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:id="@+id/textView34"
+        android:layout_below="@+id/textView33"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="4.小型车位5元/小时"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:id="@+id/textView52"
+        android:layout_below="@+id/textView37"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="3.中型车位10元/小时"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/textView37"
+        android:layout_below="@+id/textView36"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="2.大型车位15元/小时"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView36"
+        android:layout_below="@+id/textView34"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp" />
+
+    <TextView
+        android:text="6.计时收费停车场需经市物价、公安部门联合验收核准。"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView38"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp"
+        android:id="@+id/textView39" />
+
+    <TextView
+        android:text="7.停车场管理中心联系电话:18916273097"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView39"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView40" />
+
+    <Button
+        android:text="刷新"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button12"
+        android:layout_below="@+id/textView40"
+        android:layout_marginTop="14dp"
+        android:layout_alignRight="@+id/textView39"
+        android:layout_alignEnd="@+id/textView39"
+        android:background="@drawable/buttonstyle1"
+        android:layout_toEndOf="@+id/textView40"
+        android:layout_toRightOf="@+id/textView40" />
+
+    <TextView
+        android:text="当前余额："
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:id="@+id/textView29"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="充值"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button10"
+        android:background="@drawable/buttonstyle1"
+        android:layout_alignBaseline="@+id/button12"
+        android:layout_alignBottom="@+id/button12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="5.充电、洗车、行车检查、车辆保养服务均为30元/次"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:id="@+id/textView38"
+        android:layout_below="@+id/textView52"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

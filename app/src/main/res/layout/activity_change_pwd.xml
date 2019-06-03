@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="@string/app_name"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_change_pwd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/backpwd"
+    tools:context="com.example.admin.sitp_parkinglot.ChangePwd">
+
+    <com.example.admin.sitp_parkinglot.CircleImageView
+        android:id="@+id/girls01"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/headjpg"
+        android:contentDescription="@string/app_name"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_alignStart="@+id/button6"
+        android:layout_marginTop="39dp" />
+
+    <Button
+        android:text="确认修改"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6"
+        android:layout_marginBottom="39dp"
+        android:background="@drawable/buttonstyle1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="确认密码:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView15"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/editTextEnsure"
+        android:layout_alignBottom="@+id/editTextEnsure"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editTextEnsure"
+        android:background="@drawable/edit_bg"
+        android:layout_above="@+id/button6"
+        android:layout_toRightOf="@+id/textView15"
+        android:layout_toEndOf="@+id/textView15"
+        android:layout_marginBottom="28dp" />
+
+    <TextView
+        android:text="新密码:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView14"
+        android:textSize="18sp"
+        android:layout_marginBottom="38dp"
+        android:layout_above="@+id/textView15"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editTextNew"
+        android:background="@drawable/edit_bg"
+        android:layout_alignBaseline="@+id/textView14"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_toRightOf="@+id/textView15"
+        android:layout_toEndOf="@+id/textView15" />
+
+    <TextView
+        android:text="原密码:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:id="@+id/textView12"
+        android:textSize="18sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editTextOriginal"
+        android:background="@drawable/edit_bg"
+        android:layout_alignBaseline="@+id/textView12"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_alignLeft="@+id/editTextNew"
+        android:layout_alignStart="@+id/editTextNew" />
+</RelativeLayout>

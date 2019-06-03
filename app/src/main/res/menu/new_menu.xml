@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+
+        android:id="@+id/menu_History"
+        android:icon="@drawable/info"
+        android:title="    个人信息"/>
+    <item
+        android:id="@+id/menu_Setting"
+        android:icon="@drawable/change"
+        android:title="    修改密码"/>
+    <item
+        android:id="@+id/menu_Money"
+        android:icon="@drawable/money"
+        android:title="    账户余额"/>
+    <item
+        android:id="@+id/menu_Feedback"
+
+        android:title="    反馈建议"
+        android:icon="@drawable/feed"/>
+    <item
+        android:id="@+id/menu_AboutUs"
+        android:actionLayout="@layout/head"
+        android:icon="@drawable/we"
+        android:title="    关于我们"/>
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/logout"
+        android:title="    注销账号"
+        />
+</menu>
